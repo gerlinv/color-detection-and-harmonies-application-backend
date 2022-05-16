@@ -1,7 +1,7 @@
 from sqlalchemy import desc
 
-from backend.app import db
-from backend.app.models import ColorPalette
+from app import db
+from app.models import ColorPalette
 
 
 class ColorHarmoniesRepository:

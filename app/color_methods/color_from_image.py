@@ -1,5 +1,5 @@
-from backend.app.color_methods.color_name import ColorName
-from backend.app.color_methods.segmented_image import SegmentedImage
+from app.color_methods.color_name import ColorName
+from app.color_methods.segmented_image import SegmentedImage
 
 
 class ColorFromImage:

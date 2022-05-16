@@ -2,9 +2,9 @@ import ast
 
 from flask import request
 
-from backend.app import app
-from backend.app.color.color_service import ColorService
-from backend.app.color_harmonies.color_harmonies_service import ColorHarmoniesService
+from app import app
+from app.color.color_service import ColorService
+from app.color_harmonies.color_harmonies_service import ColorHarmoniesService
 
 color_service = ColorService()
 color_harmonies_service = ColorHarmoniesService()

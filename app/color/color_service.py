@@ -5,10 +5,10 @@ import cv2
 import numpy as np
 from flask import jsonify
 
-from backend.app.color_methods.color_converter import ColorConverter
-from backend.app.color_methods.color_from_image import ColorFromImage
-from backend.app.color.color_repository import ColorRepository
-from backend.app.models import Color
+from app.color_methods.color_converter import ColorConverter
+from app.color_methods.color_from_image import ColorFromImage
+from app.color.color_repository import ColorRepository
+from app.models import Color
 
 
 class ColorService:

@@ -1,4 +1,4 @@
-from backend.app import db
+from app import db
 
 color_groups = db.Table(
     "color_groups",

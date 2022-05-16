@@ -1,7 +1,7 @@
 import pandas as pd
 
-from backend.app.color_methods.color_converter import ColorConverter
-from backend.app.resources import color_HSL_ranges
+from app.color_methods.color_converter import ColorConverter
+from app.resources import color_HSL_ranges
 
 
 class ColorName:

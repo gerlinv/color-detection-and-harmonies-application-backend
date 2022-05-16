@@ -8,5 +8,5 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///colors.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
-from backend.app import models
-from backend.app import routes
+from app import models
+from app import routes

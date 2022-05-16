@@ -2,8 +2,8 @@ import colorsys
 
 from colormath.color_diff import delta_e_cie2000
 
-from backend.app.color_methods.color_converter import ColorConverter
-from backend.app.color_methods.color_name import ColorName
+from app.color_methods.color_converter import ColorConverter
+from app.color_methods.color_name import ColorName
 
 
 class ColorHarmony:

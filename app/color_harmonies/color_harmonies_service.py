@@ -2,12 +2,12 @@ from datetime import datetime
 
 from flask import jsonify
 
-from backend.app.color_methods.color_converter import ColorConverter
-from backend.app.color_methods.color_harmony import ColorHarmony
-from backend.app.color.color_repository import ColorRepository
-from backend.app.color.color_service import ColorService
-from backend.app.color_harmonies.color_harmonies_repository import ColorHarmoniesRepository
-from backend.app.models import ColorPalette
+from app.color_methods.color_converter import ColorConverter
+from app.color_methods.color_harmony import ColorHarmony
+from app.color.color_repository import ColorRepository
+from app.color.color_service import ColorService
+from app.color_harmonies.color_harmonies_repository import ColorHarmoniesRepository
+from app.models import ColorPalette
 
 
 class ColorHarmoniesService:
