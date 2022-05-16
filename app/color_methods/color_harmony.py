@@ -127,6 +127,7 @@ class ColorHarmony:
         """
         Finds the chosen RGB code's monochromatic colors.
 
+        Used source: https://github.com/baptistemanteau/colorharmonies/blob/master/colorharmonies/colorharmonies.py
         :param rgb:
         :return list of monochromatic colors:
         """
@@ -140,6 +141,7 @@ class ColorHarmony:
                 rgb2 = list(map(lambda x: round(x * 255), colorsys.hls_to_rgb(h, l - i, s - j)))
                 result.append(self.get_positive_rgb(rgb1))
                 result.append(self.get_positive_rgb(rgb2))
+        print(list(set(result)))        
         return list(set(result))
 
     def get_positive_rgb(self, rgb):

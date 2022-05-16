@@ -4,7 +4,7 @@ color_groups = db.Table(
     "color_groups",
     db.Column("color_id", db.Integer, db.ForeignKey("color.id")),
     db.Column("color_palette_id", db.Integer, db.ForeignKey("color_palette.id")),
-    db.PrimaryKeyConstraint('color_id', 'color_palette_id')
+    db.PrimaryKeyConstraint("color_id", "color_palette_id")
 )
 
 

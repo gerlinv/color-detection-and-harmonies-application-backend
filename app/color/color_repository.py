@@ -23,7 +23,6 @@ class ColorRepository:
         db.session.commit()
 
     def update_color(self, color_id, comment):
-        # raise Exception('general exceptions not caught by specific handling')
         color = Color.query.get(color_id)
         color.comment = comment
         db.session.commit()
